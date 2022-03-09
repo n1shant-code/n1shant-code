@@ -31,8 +31,7 @@ In this article, we will focus on three of those methods:
 * getElementById()
 * querySelector()
 * querySelectorAll()
-
-getElementById()
+* getElementById()
 
 In HTML, ids are used as unique identifiers for the HTML elements. This means you cannot have the same id name for two different elements. 
 
