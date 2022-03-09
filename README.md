@@ -1,13 +1,6 @@
-- 👋 Hi, I’m @n1shant-code
-
-<!---
-n1shant-code/n1shant-code is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-
 # Browser render process of HTML, CSS, JS to DOM
 
-> ## 1. Abstract
+## 1. Abstract
 The purpose of this article is to explain, in very simple terms, the steps your browser takes to convert HTML, CSS and JavaScript into a working website you can interact with.
 
 Knowing the process your browser takes to bring websites to life will empower you to optimize your web applications for faster speed and performance. 
@@ -16,7 +9,7 @@ The process need to be followed is shown in below fig.
 ![GitHub Dark](https://blog.logrocket.com/wp-content/uploads/2021/06/how-browser-rendering-works.png) 
 
 
->## [**2. Introduction**](#21-what-is-browser-rendering)
+## [**2. Introduction**](#21-what-is-browser-rendering)
 ## 2.1 What is browser rendering?
 
 `Browser rendering` is a process in which a web browser interprets and displays HTML and CSS code in its viewport. A web browser has a rendering engine and these engines can have slightly different ways in interpreting HTML and CSS, which can lead to inconsistencies in the look of a site. The widespread adoption of HTML 5 and tests such as Acid3 have improved general compatibility in modern browsers. Browser rendering is also known as a `browser engine`. . Browser rendering converts the data of `HTML`, `CSS`, and `JS` to `DOM` and `CSSOM`.
@@ -45,7 +38,7 @@ In HTML, ids are used as unique identifiers for the HTML elements. This means yo
 
  ## **3. The mechanism behind browser rendering process:**
 
-* While the browser receives the raw bytes of data and kicks off the DOM construction process, it will also make a request to fetch the main.css stylesheet linked. As soon the browser begins to parse the HTML, upon finding a link tag to a CSS file, it simultaneously makes a request to fetch that.
+ While the browser receives the raw bytes of data and kicks off the DOM construction process, it will also make a request to fetch the main.css stylesheet linked. As soon the browser begins to parse the HTML, upon finding a link tag to a CSS file, it simultaneously makes a request to fetch that.
 
 In other words, the raw bytes of data are converted to characters, then tokenized. Nodes are also formed, and, finally, a tree structure is formed.
 
@@ -88,7 +81,7 @@ With the render tree constructed, the browser moves on to the next step, layout!
 
 ![Render Tree](https://miro.medium.com/max/1400/1*-ffAB0BPwrt-AQHIea4kWQ.png)
 
-> ## ***4. References***
+ ## ***4. References***
 [Render-tree Construction, Layout, and Paint by Ilya Grigorik](https://medium.com/weekly-webtips/understand-dom-cssom-render-tree-layout-and-painting-9f002f43d1aa)
 
 [browser-rendering](https://dev.to/bnevilleoneill/how-browser-rendering-works-behind-the-scenes-1ce5)
