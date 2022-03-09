@@ -6,7 +6,7 @@ The purpose of this article is to explain, in very simple terms, the steps your 
 Knowing the process your browser takes to bring websites to life will empower you to optimize your web applications for faster speed and performance. 
 The process need to be followed is shown in below fig.
 
-![GitHub Dark](https://blog.logrocket.com/wp-content/uploads/2021/06/how-browser-rendering-works.png) 
+![GitHub Dark <img src="https://blog.logrocket.com/wp-content/uploads/2021/06/how-browser-rendering-works.png" width="100"/>](https://blog.logrocket.com/wp-content/uploads/2021/06/how-browser-rendering-works.png) 
 
 
 ## [**2. Introduction**](#21-what-is-browser-rendering)
