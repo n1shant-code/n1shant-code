@@ -28,9 +28,9 @@ The DOM views an HTML document as a `tree of nodes`. A node represents an HTML e
 There are a few different methods for selecting an element in the HTML document.
 In this article, we will focus on three of those methods:
 
-    *getElementById()
-    *querySelector()
-    *querySelectorAll()
+* getElementById()
+* querySelector()
+* querySelectorAll()
 
 getElementById()
 
@@ -58,8 +58,8 @@ styled), and then rendering the web page the HTML & CSS describes.
   So the browser needs to work with DOM.
 * Then it converts the `raw bytes` of data into `characters` and these `characters` are again converted into `tokens`.
 * Then  these `tokens` are converted the start tags and end tags into `nodes`.
-* `Nodes` are linked to a tree-like structure known as `DOM`, which is the Javascript representation of HTML, Simultaneously by following this process web browser converts CSS code to `CSSOM`. 
-* After the browser created the DOM and CSSOM it creates a tree known as `Render tree`. The render tree only consists of nodes that are visible on the screen. If the node is marked as none then it won't be a part of the Render Tree.
+* Nodes` are linked to a tree-like structure known as `DOM`, which is the Javascript representation of HTML, Simultaneously by following this process web browser   converts CSS code to `CSSOM`. 
+* After the browser created the DOM and CSSOM it creates a tree known as `Render tree`. The render tree only consists of nodes that are visible on the screen. If   the node is marked as none then it won't be a part of the Render Tree.
 
 ![DOM](https://res.cloudinary.com/practicaldev/image/fetch/s--wYwH6uKq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/proxy/1%2A10ytkQcfKdbfGQxvYj2-5A.png)
 
